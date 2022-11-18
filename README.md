@@ -1,6 +1,5 @@
 # Solecthon-Website
 
-## Before the Deployment of server
 Firstly open Command prompt and type 
 ```
 git clone https://github.com/VCET-Driverless/Solecthon-Website.git
