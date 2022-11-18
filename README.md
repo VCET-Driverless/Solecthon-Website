@@ -20,3 +20,5 @@ Run the Server by clicking
 ```
 ng serve -o
 ```
+
+&copy; VCET-Solecthon
