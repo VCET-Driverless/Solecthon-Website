@@ -15,7 +15,7 @@ Download the Node modules:
 npm i
 ```
 
-Run the Server by clicking 
+Run the Server by typing 
 
 ```
 ng serve -o
