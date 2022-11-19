@@ -1,6 +1,5 @@
 # Solecthon-Website
-> **Note:
->> The changes inside about, footer, navbar and contact are yet to be done.**
+
 
 Firstly open Command prompt and type 
 ```
