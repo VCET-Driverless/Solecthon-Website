@@ -1,4 +1,6 @@
 # Solecthon-Website
+> **Note:
+>> The changes inside about, footer, navbar and contact are yet to be done.**
 
 Firstly open Command prompt and type 
 ```
@@ -13,6 +15,7 @@ Download the Node modules:
 ```
 npm i
 ```
+
 
 Run the Server by typing 
 
