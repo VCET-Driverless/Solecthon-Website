@@ -1,0 +1,25 @@
+
+  .Main_Body {
+    background-image: linear-gradient(66deg, #ede189, rgb(216, 133, 133));
+    padding: 20px;
+    justify-content: center;
+    margin: auto;
+    align-items: space-evenly;
+  }
+
+  .image {
+    height: 50%;
+    border-radius: 10px;
+  }
+
+  .imageWidth,
+  .paraWidth {
+    margin: auto;
+    align-items: center;
+  }
+
+  .paraWidth {
+    text-align: center;
+    margin: auto;
+    margin-left: 20px;
+  }
