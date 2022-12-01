@@ -1,10 +1,21 @@
+.row, .col-md-6{
+    display:flex;
+}
+.row{
+    flex-direction:row;
+    background-color: blue;
+}
+.col-md-6{
+    flex-direction:column;
+    background-color: #f5f5f5;
+}
 .mat-cardstyle{
     margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 10px; 
+    border: 1px solid rgb(90, 78, 78);
     border-radius: 5px; 
     width: 33%;
-    box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px rgb(95, 80, 80);
 }
 h1{
     text-align: center;
