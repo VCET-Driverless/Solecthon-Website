@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-
+  no = '1234567890';
+  mailid='vcetsolecthon@vcet.edu.in';
+  glink='https://www.google.com/maps/place/19%C2%B023\'01.9%22N+72%C2%B049\'43.2%22E';
+  Location='Vidyavardhini\'s College of Engineering and Technology, Vasai, Maharashtra, India';
   constructor() { }
 
   ngOnInit(): void {
