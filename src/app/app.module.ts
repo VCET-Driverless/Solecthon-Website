@@ -7,20 +7,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { AboutComponent } from './about/about.component';
-import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { AchievementsComponent } from './achievements/achievements.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     AboutComponent,
-    NavComponent,
     FooterComponent,
     ContactComponent,
     AchievementsComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
