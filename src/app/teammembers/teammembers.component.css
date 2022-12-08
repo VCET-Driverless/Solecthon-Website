@@ -1,0 +1,19 @@
+
+.mat-cardstyle{
+    margin: 10px;
+    padding: 10px; 
+    border: 1px solid rgb(90, 78, 78);
+    border-radius: 15px;
+    height: auto; 
+    box-shadow: 0 0 5px rgb(95, 80, 80);
+}
+
+.mat-card-image{
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    height: 50%;
+    border-radius: 15px;
+}

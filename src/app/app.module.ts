@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { TeammembersComponent } from './teammembers/teammembers.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     ContactComponent,
     AchievementsComponent,
     NavBarComponent,
+    TeammembersComponent,
   ],
   imports: [
     BrowserModule,
