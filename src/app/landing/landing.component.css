@@ -3,6 +3,8 @@
   padding: 20px;
   height: 100vh;
   justify-content: center;
+  display: flex;
+  flex-direction: row;
   margin: auto;
   align-items: space-evenly;
 }
@@ -11,19 +13,44 @@ body {
   background-color: rgb(239, 198, 198);
 }
 
+.imgbg {
+  background-image: url("../../assets/images/Car-in-SEVC.jpg");
+  background-size: cover;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .image {
   width: 580px;
   border-radius: 10px;
 }
 
-.imageWidth,
+.imageWidth{
+  width: 580px;
+  border-radius: 10px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
 .paraWidth {
   margin: auto;
   align-items: center;
 }
 
 .paraWidth {
+  backdrop-filter: blur(40px);
+  border-radius: 30px;
   text-align: center;
+  color: white;
+  font-size: 1.5em;
   margin: auto;
   margin-right: 20px;
   margin-left: 20px;
