@@ -1,6 +1,4 @@
-<!-- card of a team member profile -->
-!<!DOCTYPE html>
-
+<!DOCTYPE html>
 <mat-card class="example-card">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
@@ -9,16 +7,23 @@
     <div *ngFor="let member of members" class="col-md-3">
       <div class="mat-cardstyle">
         <mat-card-title>{{member.name}}</mat-card-title>
-        <mat-card-subtitle>{{member.role}}</mat-card-subtitle>
-        <img mat-card-image src="..\..\assets\images\team\{{member.name}}.png" alt="Photo of {{member.name}}">
+        <mat-card-subtitle>{{member.role}}</mat-card-subtitle> <br>
+<div class="mat-card-image">
+  <img mat-card-image src="..\..\assets\images\team\{{member.name.toLowerCase().replace(' ','-')}}.png" alt="Photo of {{member.name}}">
+
+</div>
         <mat-card-content>
           <p>
             {{member.description}}
           </p>
         </mat-card-content>
         <mat-card-actions>
-          <button mat-button>LIKE</button>
-          <button mat-button>SHARE</button>
+          <p><a href="{{member.linkedin}}">
+              <img class="social" src="../../assets/images/linkedin.svg" alt="in">
+            </a></p>
+          <p mat-button><a href="{{member.gmail}}">
+              <img class="social" src="../../assets/images/gmail.svg" alt="gmail">
+            </a></p>
         </mat-card-actions>
       </div>
     </div>

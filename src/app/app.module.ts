@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { MatCardModule } from '@angular/material/card';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
@@ -12,6 +12,9 @@ import { ContactComponent } from './contact/contact.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { TeammembersComponent } from './teammembers/teammembers.component';
+import { HomeComponent } from './home/home.component';
+import { ErrorComponent } from './error/error.component';
+import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
 @NgModule({
   declarations: [
@@ -23,11 +26,13 @@ import { TeammembersComponent } from './teammembers/teammembers.component';
     AchievementsComponent,
     NavBarComponent,
     TeammembersComponent,
+    HomeComponent,
+    ErrorComponent,MdbValidationModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatCardModule
+    MatCardModule, FormsModule, ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
