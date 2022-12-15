@@ -14,7 +14,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { TeammembersComponent } from './teammembers/teammembers.component';
 import { HomeComponent } from './home/home.component';
 import { ErrorComponent } from './error/error.component';
-import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,12 +27,14 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     NavBarComponent,
     TeammembersComponent,
     HomeComponent,
-    ErrorComponent,MdbValidationModule
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatCardModule, FormsModule, ReactiveFormsModule
+    MatCardModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
