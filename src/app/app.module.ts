@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {
+  MatFormFieldModule,
+  MatFormFieldAppearance,
+  MatFormFieldControl,
+} from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
@@ -30,11 +35,12 @@ import { HttpClientModule } from '@angular/common/http';
     ErrorComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, MatFormFieldModule,
     AppRoutingModule,
     MatCardModule,
     FormsModule,
-    ReactiveFormsModule,
+    ReactiveFormsModule,    
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
