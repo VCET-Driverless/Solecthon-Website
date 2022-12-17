@@ -20,6 +20,7 @@ import { TeammembersComponent } from './teammembers/teammembers.component';
 import { HomeComponent } from './home/home.component';
 import { ErrorComponent } from './error/error.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -35,12 +36,18 @@ import { HttpClientModule } from '@angular/common/http';
     ErrorComponent,
   ],
   imports: [
-    BrowserModule, MatFormFieldModule,
+    BrowserModule,
+    MatFormFieldModule,
+    MatCardModule,
+    FormsModule,
+    MatToolbarModule,
+    ReactiveFormsModule,
+    HttpClientModule,
     AppRoutingModule,
     MatCardModule,
     FormsModule,
-    ReactiveFormsModule,    
-    HttpClientModule
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
