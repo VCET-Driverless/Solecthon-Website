@@ -8,7 +8,6 @@ import { Team } from '../Team';
 export class TeammembersComponent implements OnInit {
   members = Team;
   constructor() { }
-
   ngOnInit(): void {
   }
 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-light">
+<!-- <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="../../assets/images/logo.svg" class="Img" alt="">
@@ -25,15 +25,35 @@
       </form>
     </div>
   </div>
-</nav>
-<!-- Navbar using material components -->
-<mat-toolbar color="primary">
-  <a mat-button routerLink="/">Home</a>
-  <a mat-button routerLink="/contact">Contact</a>
-  <a mat-button routerLink="/about">About</a>
+</nav> -->
+<mat-toolbar color="primary"> 
+  <button mat-icon-button class="example-icon"
+    aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Solecthon</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button color="primary">
+    Home
+  </button>
+  <button mat-raised-button color="primary">
+    About Us
+  </button>
+  <button mat-raised-button color="primary">
+    Achievements
+  </button>
+  <button mat-raised-button color="primary">
+    Contact Us
+  </button>
+  <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button> -->
 </mat-toolbar>
-<!-- Navbar using ngStyle -->
-<!-- <a [ngStyle]="{'background-color':colour}">a</a>
-<nav
-
-<!-- <a [ngStyle]="{'color':colour}">a</a> -->
