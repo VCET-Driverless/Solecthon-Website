@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<mat-card class="example-card">
+<mat-card class="card">
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
+    <div mat-card-avatar class="header-image"></div>
   </mat-card-header>
   <div class="row">
     <div *ngFor="let member of members" class="col-md-3">
-      <div class="mat-cardstyle">
+      <div class="mat-cardstyle back">
         <mat-card-title>{{member.name}}</mat-card-title>
         <mat-card-subtitle>{{member.role}}</mat-card-subtitle> <br>
-<div class="mat-card-image">
-  <img mat-card-image src="..\..\assets\images\team\{{member.name.toLowerCase().replace(' ','-')}}.png" alt="Photo of {{member.name}}">
+        <div class="mat-card-image">
+          <img mat-card-image src="..\..\assets\images\team\{{member.name.toLowerCase().replace(' ','-')}}.png"
+            alt="Photo of {{member.name}}">
 
-</div>
+        </div>
         <mat-card-content>
           <p>
-            {{member.description}}
+            {{member.name}} is a {{member.description}}
           </p>
         </mat-card-content>
         <mat-card-actions>

@@ -8,6 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class NavBarComponent implements OnInit {
   colour = 'Red';
   color2 = 'Red';
-  constructor() {}s
+  constructor() {}
   ngOnInit(): void {}
 }

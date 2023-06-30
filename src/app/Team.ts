@@ -1,11 +1,11 @@
 import { Member } from './typeMember';
 export const Team: Member[] = [
   {
-    name: 'Manisha Kushwaha',
+    name: 'Deep Patel',
     role: 'Captain',
-    description: '{{name}} is a 3rd year student at the University of Waterloo ',
+    description: '{{name}} is a 3rd year student at the University of Mumbai ',
     gmail: 'mailto:adityalawate2004@gmail.com',
-    linkedin: 'https://www.linkedin.com/in/aditya-lawate/'
+    linkedin: 'https://www.linkedin.com/in/aditya-lawate/',
   },
   {
     gmail: 'mailto:adityalawate2004@gmail.com',
@@ -16,7 +16,7 @@ export const Team: Member[] = [
   },
   {
     name: 'Sara',
-    linkedin: 'https://www.linkedin.com/in/aditya-lawate/',
+    linkedin: 'https://www.linkedin.com/in/aditya-lawate-2/',
     role: 'Founder',
     gmail: 'mailto:adityalawate2004@gmail.com',
 
